@@ -31,6 +31,7 @@ public class Player {
         if (healthRemain <= 0) {
             System.out.println(name + " player has been knocked out of game");
         }
+
         checkHealth(healthRemain);
     }
 
